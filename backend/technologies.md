@@ -13,7 +13,7 @@ Télécharger l'installer Python sur [le site officiel](https://www.python.org/d
 #### Pour MacOS
 
 - Télécharger l'installer Python sur [le site officiel](https://www.python.org/downloads/macos/)
-- Ou utiliser le package manager <a href="https://brew.sh/fr/">Homebrew</a>
+- Ou utiliser le package manager [Homebrew](https://brew.sh/fr/)
     - Installer homebrew
     - Installer la bonne version de Python avec `brew install python@3.13`
 
