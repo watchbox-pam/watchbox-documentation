@@ -3,47 +3,6 @@
 L'architecture du frontend de l'application Watchbox se présente de la façon suivante : 
 
 ```
-📦src
- ┣ 📂app
- ┃ ┣ 📂(app)
- ┃ ┃ ┣ 📂(tabs)
- ┃ ┃ ┃ ┣ 📜_layout.tsx
- ┃ ┃ ┃ ┗ 📜xxx.tsx
- ┃ ┃ ┣ 📂movie
- ┃ ┃ ┃ ┣ 📂[id]
- ┃ ┃ ┃ ┃ ┗ 📜review.tsx
- ┃ ┃ ┃ ┗ 📜[id].tsx
- ┃ ┃ ┣ 📂person
- ┃ ┃ ┃ ┗ 📜[id].tsx
- ┃ ┃ ┗ 📂watchList
- ┃ ┃ ┃ ┗ 📜[id].tsx
- ┃ ┣ 📜_layout.tsx
- ┃ ┣ 📜base.tsx
- ┃ ┣ 📜login.tsx
- ┃ ┗ 📜signup.tsx
- ┣ 📂assets
- ┃ ┣ 📂fonts
- ┃ ┃ ┗ 📜Oswald-VariableFont_wght.ttf
- ┃ ┣ 📂images
- ┃ ┃ ┗ 📜image.png
- ┣ 📂components
- ┃ ┗ 📜Component.tsx
- ┣ 📂models
- ┃ ┗ 📜Model.ts
- ┣ 📂screens
- ┃ ┗ 📜xxxScreen.tsx
- ┣ 📂services
- ┃ ┗ 📜xxxService.ts
- ┣ 📂styles
- ┃ ┗ 📜xxxStyle.ts
- ┣ 📂utils
- ┃ ┣ 📜axios.ts
- ┃ ┗ 📜encryption.ts
- ┗ 📂zustand
-   ┗ 📜xxxStore.ts
-```
-
-```
 📦watchbox-app
  ┣ 📂.expo
  ┣ 📂.github
